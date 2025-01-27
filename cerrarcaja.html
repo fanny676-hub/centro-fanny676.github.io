@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1/HiperDAFI/caja/cerrar -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Required meta tags -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>CelestialUI Admin</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="./cerrarcaja_files/typicons.css">
+  <link rel="stylesheet" href="./cerrarcaja_files/vendor.bundle.base.css">
+  <link href="./cerrarcaja_files/bootstrap.min.css" rel="stylesheet">
+<script src="./cerrarcaja_files/bootstrap.bundle.min.js.descarga"></script>
+
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="./cerrarcaja_files/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="http://127.0.0.1/HiperDAFI/public//images/favicon.ico">
+</head>
+
+<body>
+  <div class="row" id="proBanner">
+    <div class="col-12">
+      <span class="">
+        <!-- <p>Bienvenido <br />
+<b>Warning</b>:  Undefined array key "ci" in <b>C:\laragon\www\HiperDAFI\view\templates\header.php</b> on line <b>40</b><br />
+</p> -->
+        <!-- <a href="https://www.bootstrapdash.com/product/celestial-admin-template/?utm_source=organic&utm_medium=banner&utm_campaign=free-preview" target="_blank" class="btn download-button purchase-button ml-auto">Upgrade To Pro</a> -->
+        <i class="typcn typcn-delete-outline" id="bannerClose"></i>
+      </span>
+    </div>
+  </div>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="http://127.0.0.1/HiperDAFI/home">
+          <img src="./cerrarcaja_files/logo.jpg" alt="logo" style="max-width: 55px; height: auto; border-radius: 100%;">
+          <h2 class="h4">HiperDAFI</h2>
+        </a>
+        <a class="navbar-brand brand-logo-mini" href="http://127.0.0.1/HiperDAFI/caja/index.html"><img src="./cerrarcaja_files/logo-mini.svg" alt="logo" style="max-width: 30px; height: auto;">
+        </a>
+        <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button" data-toggle="minimize">
+          <span class="typcn typcn-th-menu"></span>
+        </button>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item  d-none d-lg-flex">
+            <a class="nav-link" href="http://127.0.0.1/HiperDAFI/ventas/seleccionarCategoria">
+              Continuar Venta
+            </a>
+          </li>          <li class="nav-item  d-none d-lg-flex">
+            <a class="nav-link active" href="http://127.0.0.1/HiperDAFI/caja/cerrar#">
+              Principal
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item d-none d-lg-flex  mr-2">
+            <a class="nav-link" href="https://github.com/romerflores">
+              Help
+            </a>
+          </li>
+          <li class="nav-item dropdown d-flex">
+            <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="http://127.0.0.1/HiperDAFI/caja/cerrar#" data-toggle="dropdown">
+              <i class="typcn typcn-message-typing"></i>
+              <span class="count bg-success">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Mensajes</p>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="./cerrarcaja_files/face4.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal">David Grey
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    The meeting is cancelled
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="./cerrarcaja_files/face2.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal">Tim Cook
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    New product launch
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="./cerrarcaja_files/face3.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal"> Johnson
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Upcoming board meeting
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown  d-flex">
+            <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="http://127.0.0.1/HiperDAFI/caja/cerrar#" data-toggle="dropdown">
+              <i class="typcn typcn-bell mr-0"></i>
+              <span class="count bg-danger">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notificationes</p>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="typcn typcn-info-large mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Error de Aplicacion</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Hoy
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="typcn typcn-user-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Nuevo Usuario Registrado</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    hace 2 dias
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle  pl-0 pr-0" href="http://127.0.0.1/HiperDAFI/caja/cerrar#" data-toggle="dropdown" id="profileDropdown">
+              <i class="typcn typcn-user-outline mr-0"></i>
+              <span class="nav-profile-name">fanny condori</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="typcn typcn-cog text-primary"></i>
+                Ajustes
+              </a>
+              <a class="dropdown-item" href="http://127.0.0.1/HiperDAFI/login/logout">
+                <i class="typcn typcn-power text-primary"></i>
+                Cerrar Sesion
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="typcn typcn-th-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="typcn typcn-cog-outline"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close typcn typcn-delete-outline"></i>
+          <p class="settings-heading">SIDEBAR SKINS</p>
+          <div class="sidebar-bg-options" id="sidebar-light-theme">
+            <div class="img-ss rounded-circle bg-light border mr-3"></div>
+            Light
+          </div>
+          <div class="sidebar-bg-options selected" id="sidebar-dark-theme">
+            <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+            Dark
+          </div>
+          <p class="settings-heading mt-2">HEADER SKINS</p>
+          <div class="color-tiles mx-0 px-4">
+            <div class="tiles success"></div>
+            <div class="tiles warning"></div>
+            <div class="tiles danger"></div>
+            <div class="tiles primary"></div>
+            <div class="tiles info"></div>
+            <div class="tiles dark"></div>
+            <div class="tiles default border"></div>
+          </div>
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1/HiperDAFI/home">
+              <i class="typcn typcn-device-desktop menu-icon"></i>
+              <span class="menu-title">Inicio</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="http://127.0.0.1/HiperDAFI/caja/cerrar#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="typcn typcn-briefcase menu-icon"></i>
+              <span class="menu-title">Productos</span>
+              <i class="typcn typcn-chevron-right menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/productos/prod-listado">Listar Productos</a></li>
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/productos/prod-agregar">Agregar Producto</a></li>
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/categorias/cat-listado">Listar Categorias</a></li>
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/categorias/cat-agregar">Agregar Categorias</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="http://127.0.0.1/HiperDAFI/caja/cerrar#form-elements" aria-expanded="false" aria-controls="form-elements">
+              <i class="typcn typcn-film menu-icon"></i>
+              <span class="menu-title">Clientes</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1/HiperDAFI/clientes/cli-listado">Listar Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1/HiperDAFI/clientes/cli-agregar">Agregar Clientes</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="http://127.0.0.1/HiperDAFI/caja/cerrar#charts" aria-expanded="false" aria-controls="charts">
+              <i class="typcn typcn-chart-pie-outline menu-icon"></i>
+              <span class="menu-title">Pedidos</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="charts">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/pedidos/listado">Listar Pedidos</a></li>
+              </ul>
+              
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="http://127.0.0.1/HiperDAFI/caja/cerrar#tables" aria-expanded="false" aria-controls="tables">
+              <i class="typcn typcn-document-text menu-icon"></i>
+              <span class="menu-title">Reportes</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1/HiperDAFI/report/rpt_Productos.php" target="_blank">Reporte Productos</a></li>s
+              </ul>
+            </div>
+          </li>
+          
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="http://127.0.0.1/HiperDAFI/caja/cerrar">
+              <!-- <i class="typcn typcn-document-text menu-icon"></i> -->
+              <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 6h8v12H3zm18 12h-9V6h9.003zm-1-4.5c0-.275-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5v3c0 .275.225.5.5.5h1c.275 0 .5-.225.5-.5zm-3-6c0-.275-.225-.5-.5-.5h-3c-.275 0-.5.225-.5.5v5c0 .275.225.5.5.5h3c.275 0 .5-.225.5-.5zm1.5 2.5h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5m0 2h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5m-5 3h3c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-3c-.275 0-.5.225-.5.5s.225.5.5.5m3 1h-3c-.275 0-.5.225-.5.5s.225.5.5.5h3c.275 0 .5-.225.5-.5s-.225-.5-.5-.5m2-8h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5M10 7.5c0-.275-.225-.5-.5-.5h-5c-.275 0-.5.225-.5.5v3c0 .275.225.5.5.5h5c.275 0 .5-.225.5-.5zM9.501 14h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5m0-2h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5m0 4h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5"></path>
+              </svg>
+              <span class="menu-title"> Cerrar Caja</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1/HiperDAFI/caja/abrir">
+              <!-- <i class="typcn typcn-document-text menu-icon"></i> -->
+              <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 6h8v12H3zm18 12h-9V6h9.003zm-1-4.5c0-.275-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5v3c0 .275.225.5.5.5h1c.275 0 .5-.225.5-.5zm-3-6c0-.275-.225-.5-.5-.5h-3c-.275 0-.5.225-.5.5v5c0 .275.225.5.5.5h3c.275 0 .5-.225.5-.5zm1.5 2.5h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5m0 2h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5m-5 3h3c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-3c-.275 0-.5.225-.5.5s.225.5.5.5m3 1h-3c-.275 0-.5.225-.5.5s.225.5.5.5h3c.275 0 .5-.225.5-.5s-.225-.5-.5-.5m2-8h1c.275 0 .5-.225.5-.5s-.225-.5-.5-.5h-1c-.275 0-.5.225-.5.5s.225.5.5.5M10 7.5c0-.275-.225-.5-.5-.5h-5c-.275 0-.5.225-.5.5v3c0 .275.225.5.5.5h5c.275 0 .5-.225.5-.5zM9.501 14h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5m0-2h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5m0 4h-5c-.274 0-.5.225-.5.5s.226.5.5.5h5c.274 0 .499-.225.499-.5s-.225-.5-.499-.5"></path>
+              </svg>
+              <span class="menu-title"> Abrir Caja</span>
+            </a>
+          </li>
+        </ul>
+        
+      </nav>
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Cierre de Caja</h3>
+                        <form id="cerrarCajaForm">
+                            <div class="form-group">
+                                <label for="monto_final">Monto Final:</label>
+                                <input type="number" class="form-control" id="monto_final" name="monto_final" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="fecha_fin">Fecha de Cierre:</label>
+                                <input type="date" class="form-control" id="fecha_fin" name="fecha_fin" value="2025-01-27" required="">
+                            </div>
+                            <button type="button" class="btn btn-primary" id="cerrarCajaBtn">Cerrar Caja</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para mostrar mensajes -->
+<div class="modal fade" id="mensajeModal" tabindex="-1" aria-labelledby="mensajeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mensajeModalLabel">Resultado del Cierre de Caja</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body" id="mensajeModalBody">
+                <!-- Aquí se mostrará el mensaje -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <button type="button" class="btn btn-info btn-icon-text" onclick="window.location.href=&#39;http://127.0.0.1/HiperDAFI/report/rpt_cierre_Caja.php&#39;">
+            Cerrar Caja y Generar Reporte
+            <i class="typcn typcn-printer btn-icon-append"></i>
+        </button>
+    </div>
+</div>
+
+<script>
+    document.getElementById('cerrarCajaBtn').addEventListener('click', function () {
+        const montoFinal = document.getElementById('monto_final').value;
+        const fechaFin = document.getElementById('fecha_fin').value;
+
+        if (!montoFinal || !fechaFin) {
+            alert("Todos los campos son obligatorios.");
+            return;
+        }
+
+        const data = new FormData();
+        data.append('monto_final', montoFinal);
+        data.append('fecha_fin', fechaFin);
+
+        fetch('http://127.0.0.1/HiperDAFI/controller/Detalle_CajaController.php', {
+            method: 'POST',
+            body: data,
+        })
+            .then((response) => response.json())
+            .then((result) => {
+                const mensajeModalBody = document.getElementById('mensajeModalBody');
+                if (result.estado) {
+                    mensajeModalBody.textContent = result.mensaje;
+                    const modal = new bootstrap.Modal(document.getElementById('mensajeModal'));
+                    modal.show();
+                    setTimeout(() => {
+                        window.location.href = 'http://127.0.0.1/HiperDAFI/home';
+                    }, 3000); // Redirigir después de 3 segundos
+                } else {
+                    mensajeModalBody.textContent = "Error: " + result.mensaje;
+                    const modal = new bootstrap.Modal(document.getElementById('mensajeModal'));
+                    modal.show();
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert("Se cerro la caja");
+            });
+    });
+</script>
+
+</div>
+<!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="./cerrarcaja_files/vendor.bundle.base.js.descarga"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="./cerrarcaja_files/off-canvas.js.descarga"></script>
+<script src="./cerrarcaja_files/hoverable-collapse.js.descarga"></script>
+<script src="./cerrarcaja_files/template.js.descarga"></script>
+<script src="./cerrarcaja_files/settings.js.descarga"></script>
+<script src="./cerrarcaja_files/todolist.js.descarga"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="./cerrarcaja_files/progressbar.min.js.descarga"></script>
+<script src="./cerrarcaja_files/Chart.min.js.descarga"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="./cerrarcaja_files/dashboard.js.descarga"></script>
+<!-- End custom js for this page-->
+
+
+
+<!-- page-body-wrapper ends -->
+
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="./cerrarcaja_files/vendor.bundle.base.js.descarga"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="./cerrarcaja_files/off-canvas.js.descarga"></script>
+<script src="./cerrarcaja_files/hoverable-collapse.js.descarga"></script>
+<script src="./cerrarcaja_files/template.js.descarga"></script>
+<script src="./cerrarcaja_files/settings.js.descarga"></script>
+<script src="./cerrarcaja_files/todolist.js.descarga"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="./cerrarcaja_files/progressbar.min.js.descarga"></script>
+<script src="./cerrarcaja_files/Chart.min.js.descarga"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="./cerrarcaja_files/dashboard.js.descarga"></script>
+<!-- End custom js for this page-->
+
+
+</body></html>
